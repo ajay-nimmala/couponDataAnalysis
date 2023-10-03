@@ -1,3 +1,5 @@
+AJAY NIMMALA – Coupon Data Analysis Read me file
+
 CSV to a DataFrame:
 Read the coupons data (in csv format) file and load it into a dataframe - data: Using Pandas’s read_csv method.
 
@@ -38,10 +40,13 @@ Continuing the analysis, did some plotting to understand coupon accepted for eac
 1. Coupon Type – As we can see from the data that Carry out & Take Away coupons are the highest percentage of accepted coupons, followed by the restaurants coupons. Within restaurants as well, cheaper restaurants (<20) have higher acceptance rate. Coffee house coupons are most accepted from a volume POV, but their rejection rate is also equal (50-50). Following charts reflect the same based on data as well as in plotly’s density heatmap
 
 
-
+
+
+
 Following plot reflects which coupon type has higher acceptance rate, pictorally. Its very clear from the picture that cheaper restaurants(<20) along with carry out and take away have higher percentage of coupon acceptance. Volume of coffee house coupons accepted is similar to that of cheaper restaurants and Carry out and Takeaway.
 
-
+
+
 
 
 
@@ -50,18 +55,27 @@ Following plot reflects which coupon type has higher acceptance rate, pictorally
 
 
 
-
+
+
+
+
+
 
 3. Income – There is not a lot of huge variation of coupon acceptance rates based on income. All income ranges are trending between 48-60% acceptance rates. 
 
 
-
+
+
+
 From the below chart, we can clearly see that customers who have an income between $62,500 and $99,999 do not accept coupons much.
 
-Bar plots to visualize coupon acceptance based on user attributes:
+
+Bar plots to visualize coupon acceptance based on user attributes:
 
 Coupon Type – Restaurant(<20) and Carry out & Takeaway coupons have higher acceptance rates.
-Gender – There is not a significant variation based on the gender of the driver.
+
+
+Gender – There is not a significant variation based on the gender of the driver.
 
 Children – Drivers who have kids have a higher percent of coupon acceptance rates. 
 
@@ -80,9 +94,12 @@ Education Level – A different visualization of how education has an impact on co
 Temperature & Weather– Its very clear that overall coupons are used/accepted on sunny days more than when the temperature is cooler. Its almost double on the days it is with higher temperature. Only significant coupon that is used during cooler days is for Carry out and take away.
 
 
-
-
-
+
+
+
+
+
+
 
 
 
